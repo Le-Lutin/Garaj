@@ -10,5 +10,15 @@ package garage;
  * @author Asus
  */
 class VehiculeEnPanne {
+    private String nom;
+    private String panne;
+
+    public VehiculeEnPanne(String nom, String panne) {
+        this.nom = nom;
+        this.panne = panne;
+    }
+
+    
+    
     
 }
