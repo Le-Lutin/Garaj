@@ -16,6 +16,12 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Garage monGarage = new Garage();
+        VehiculeEnPanne v = new VehiculeEnPanne();
+        
+        monGarage.add(v);
+        monGarage.add(v);
+        System.out.println(monGarage);
     }
     
 }
